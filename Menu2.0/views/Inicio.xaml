@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu2._0.views.Inicio"
+             Title="Inicio">
+    <StackLayout 
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+        
+        <Image Source="inicio.png"/>
+        <Label Text="Bienvenido a Mi Primera Aplicacion Movil con Menu y aplicacion para subir anime;)" 
+            TextColor="Coral"
+               VerticalTextAlignment="Center"
+               HorizontalOptions="Center"
+               FontAttributes="Italic"
+               FontSize="Large"/>
+    </StackLayout>
+</ContentPage>

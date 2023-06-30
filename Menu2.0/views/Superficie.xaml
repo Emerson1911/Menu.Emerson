@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu2._0.views.Superficie"
+             Title="Superficie">
+    <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+        <Image Source="nasa.jpg"
+               />
+        
+        <Label 
+            Text="calcular triangulo"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry Placeholder="Ingrese la altura de un triangulo" x:Name="Altura" TextColor="Red"/>
+        <Entry Placeholder="Ingrese la base de un triangulo" x:Name="Base" TextColor="Blue"/>
+        <Entry Placeholder="Ingresa la superficie de un trangulo" x:Name="Superfici" TextColor="Coral"/>
+        <Button Text="Calcular" x:Name="Calcular" Clicked="Calcular_Clicked" TextColor="Yellow"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Menu2._0.views.Dinosaurio"
+             Title="Dinosaurio">
+    <VerticalStackLayout 
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+       
+
+        <Label Text="Si el peso y la altura quieres conocer nosotros lo haremos por ti"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               TextColor="Coral"/>
+
+        <Entry Placeholder="Introduzca el peso del dinosaurio" x:Name="Peso" TextColor="Red"/>
+        <Entry Placeholder="Instroduzca la altura del dinosaurio" x:Name="Altura" TextColor="Green"/>
+        <Entry Placeholder="El peso de nuestro dinosaurio es" x:Name="Gordo" TextColor="Blue" />
+        <Entry Placeholder="Su peso en libras es " x:Name="Libras" TextColor="RoyalBlue"/>
+        <Entry Placeholder="Su altura en centimetros es " x:Name="Centimetros" TextColor="Coral" />
+        <Button Text="Calcular" x:Name="Dino" Clicked="Dino_Clicked" TextColor="Red" BackgroundColor="GreenYellow"/>
+
+
+    </VerticalStackLayout>
+</ContentPage>
